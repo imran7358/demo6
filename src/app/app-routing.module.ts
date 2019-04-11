@@ -10,6 +10,7 @@ import { from } from 'rxjs';
 import { EmployedataComponent } from './employedata/employedata.component';
 import { CountrydataComponent } from './countrydata/countrydata.component';
 import { PiclibrayComponent } from './piclibray/piclibray.component';
+
 const routes: Routes = [
   {path:'', component:HomeComponent,pathMatch:'full'},
   {path:'home', component:HomeComponent},
